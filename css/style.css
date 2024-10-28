@@ -1,0 +1,44 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+.details-container {
+    transition: all 0.3s ease-in-out;
+    display: none; 
+    position: absolute; 
+    top: 20px; 
+    left: 10%; 
+    width: 80%; 
+    z-index: 1050; 
+    border-radius: 8px;
+}
+.text-warning {
+    color: orange;
+}
+.album.container {
+    padding-bottom: 100px;
+}
